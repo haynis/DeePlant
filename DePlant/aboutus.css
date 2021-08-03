@@ -1,0 +1,20 @@
+.row{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    overflow: hidden;
+}
+
+.row h1{
+    padding-top: 25px;
+    font-size: 30px;
+}
+
+#fungsi{
+    text-align: center;
+    margin: 10px 40px 10px 40px;
+    background-color: #FFFAF0;
+    padding: 10px;
+    padding-top: 30px;
+    padding-bottom: 300px;
+}

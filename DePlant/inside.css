@@ -1,0 +1,100 @@
+/*mark judul*/
+#newsletter{
+    color: #FFFAF0;
+    background: linear-gradient(to right,#3d4b1c,#6B8E23); 
+}
+
+#newsletter h1{
+    float: left;
+
+}
+
+#pengertian p{
+    text-align: center;
+    margin: 10px 40px 10px 40px;
+    background-color: #FFFAF0;
+    padding: 3px;
+
+}
+#pengertian p:first-letter{
+     font-size: xx-large; float-left; line-height: 60px:color:#3d4b1c;
+}
+
+#jenis{
+    text-align: left;
+    margin: 10px 40px 10px 40px;
+    background-color: #FFFAF0;
+    padding: 3px;
+}
+
+#jenis h3{
+    text-align:left; 
+}
+/* Inside Box */
+
+#showcase{
+    margin: 10px;
+    min-height: 400px;
+    background: url('pic/leafbg.jpg')no-repeat; 
+    text-align:center;
+    color: #FFFAF0;
+
+}
+#showcase h1{
+    margin-top:120px;
+    font-size: 55px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px #9acd32; 
+
+}
+
+#showcase p{
+    font-size: 20px;
+}
+
+#showcase1{
+    margin: 10px;
+    min-height: 400px; 
+    text-align:center;
+    color: black;
+    background-color: #FFFAF0;
+
+}
+#showcase1 h1 {
+    margin-top:40px;
+    font-size: 55px;
+
+}
+.garis{
+    width: 100%;
+    border: 4px solid #3d4b1c;
+}
+
+
+#showcase1 hr {
+    color:  solid black 100px;
+}    
+#showcase1 h1{
+    font-size: 20px;
+}
+
+#jenis img{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    width: 35%;
+    height: 35%;
+}
+
+#jenis p{
+    padding-bottom: 20px;
+}
+
+#jenis h4{
+    margin: 10px 0px 10px 0px;
+    background-color: #FFFAF0;
+    padding: 3px;
+}
+
+#jenis hr{
+    margin-bottom: 40px;
+}

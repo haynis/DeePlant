@@ -1,0 +1,190 @@
+body {
+	margin: 0;
+	padding: 0px;
+	background: #FFFAF0;
+	font-family: 'Trebuchet MS';
+	font-size: 12pt;
+	font-weight: 400;
+	color: rgba(0,0,0,.8);
+}
+
+a {
+	color: rgba(0,0,0,.8);
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a img {
+	border: none;
+}
+
+/** WRAPPER */
+
+#wrapper {
+	margin: 0px auto;
+}
+
+.container {
+	width: 1200px;
+	margin: 0px auto;
+}
+
+.clearfix {
+	clear: both;
+}
+
+/** HEADER */
+
+#header-wrapper
+{
+	background: url('pic/leaf2.jpg') no-repeat top center;
+	background-size: cover;
+}
+
+#header {
+	position: relative;
+	overflow: hidden;
+	height: 600px;
+}
+
+#logo {
+	position: absolute;
+	padding: 2em 2em;
+}
+
+/** MENU */
+
+#menu {
+	overflow: hidden;
+	background: rgb(61,75,28);
+}
+
+#menu ul {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	display: inline-block;
+}
+
+#menu a {
+	display: block;
+	padding: 0px 50px 0px 50px;
+	line-height: 60px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 400;
+	color: #FFFAF0;
+	border: none;
+}
+
+#menu a:hover, #menu .current a {
+	background-color: #FFFAF0;
+	text-decoration: none;
+	color: black;
+}
+
+#menu .current a {
+}
+
+#menu .last {
+	border-right: none;
+}
+
+/*Box*/
+
+.box{
+    width: 250px;
+    height: 450px;
+    padding: 25px;
+    background-color: black;
+    border: 5px solid;
+    margin: 10px;
+    float: left;
+    text-align: center;
+    color: #FFFAF0;
+} /*rgb(61,75,28)*/
+
+ .box p a{
+    background-color: solid green;
+    color: #FFFAF0;
+
+}
+.box img{
+    width: 100px;
+    height: 100px;
+}
+
+#boxes{
+    min-height: 400px;
+    margin-top: 20px;
+    /*text-shadow: 2px 2px 5px ;*/
+    color: black;
+    display: flex;
+}
+
+#boxes .boxs {
+    float: left;
+    text-align: center;
+    width: 23%;
+    padding: 10px;
+    background-color: #FFFAF0;
+}
+
+#boxes .boxs img:hover{
+    width: 45%;
+}
+
+#boxes .boxs a h3{
+    color: black;
+}
+
+.containers{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.containers img{ /*logo konten individu*/
+    width: 135px;
+    height:135px;
+    padding-top: 10px;
+}
+
+#showcase2 h1{
+    font-size: 30px;
+    text-align: center;
+   
+}
+
+/*GALERI*/
+.galeri img{    
+     margin: 0px;
+     padding: 8px;
+     padding-top: 30px; 
+     width: 300px;
+     height: 200px;
+   }
+
+
+
+/* Footer */
+
+#footer{
+	background: rgb(61,75,28);
+	color: #FFFAF0;
+	padding: 50px 0px 50px 0px;
+	text-align: center;
+    margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  margin-top: 50px;
+ display: block;
+}
